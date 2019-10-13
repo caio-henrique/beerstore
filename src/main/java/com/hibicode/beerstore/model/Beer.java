@@ -19,6 +19,7 @@ public class Beer {
     private String name;
 
     @NotNull(message = "beers-2")
+    @Enumerated(EnumType.STRING)
     private BeerType type;
 
     @NotNull(message = "beers-3")
