@@ -2,6 +2,7 @@ package com.hibicode.beerstore.service;
 
 import com.hibicode.beerstore.model.Beer;
 import com.hibicode.beerstore.repository.Beers;
+import com.hibicode.beerstore.service.exception.BeerAlreadyExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
